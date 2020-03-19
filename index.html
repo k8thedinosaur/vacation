@@ -9,7 +9,21 @@ Use several helper classes to add color that emphasizes certain areas of the pag
 
 Include a list of vacation packages available to visit this area. Each package should include a cost, the date or range of dates its available, and the activities included in the package. Organize this information in a grid.
 
-In addition to Bootstrap styles, add your own stylesheet to further customize the appearance of the site. -->
+In addition to Bootstrap styles, add your own stylesheet to further customize the appearance of the site. 
+
+Vacation packages:
+
+6-hour cruiser tour $100
+
+
+weekend-long lovers' getaway $250
+bottle of brine...I mean wine on your pillow
+
+two-month hermit stay in glass bubble hotel $4000
+enough supplies to last, including water and oxygen cleansing and hydroponic food growing station
+
+forever? we put you in a little sea pod without enough fuel to resurface - free?
+-->
 
 <!DOCTYPE html>
 <html>
@@ -24,18 +38,62 @@ In addition to Bootstrap styles, add your own stylesheet to further customize th
         <h1>Visit the Mariana Trench!</h1>
         <p class="bg-primary">The deepest getaway you'll ever experience.</p>
       </div>
-      <blockquote class="blockquote-reverse bg-danger">
-        <p>Simultaneously the hottest and coolest place I've ever been!</p>
-        <footer>Some guy whose hair is on <span class="text-danger">fire</span></footer>
-      </blockquote>
-      <blockquote class="bg-warning">
-        <p>I spent an hour basking in the hydrothermal vents and my skin has never looked better!</p>
-        <footer>Some lady whose entire body has <span class="text-warning">melted</span></footer>
-      </blockquote>
-      <blockquote class="bg-info blockquote-reverse">
-        <p>I saw an anglerfish and it made my life complete.</p>
-        <footer><span class="text-info">Me</span>, probably</footer>
-      </blockquote>
-     </div>
+      
+      <div class="row packages">
+        <div class="col-lg-3">
+          <h2>Cruiser Tour</h2>
+          <ul>
+            <li>6 hours</li>
+            <li>$100 per person</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h2>Lovers' Lounge</h2>
+          <ul>
+            <li>3-day weekend</li>
+            <li>$250 per person</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h2>Hermit Hideaway</h2>
+          <ul>
+            <li>2 months</li>
+            <li>$4000 per person</li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h2>The Descent</h2>
+          <ul>
+            <li>Forever?</li>
+            <li>Free?</li>
+          </ul>
+        </div>
+      </div>
+        
+      </div>
+
+      <!-- <!-- <div class="packages">
+        <div class="col-md-12">
+
+        </div>
+      </div> -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <blockquote class="blockquote-reverse bg-danger">
+            <p>Simultaneously the hottest and coolest place I've ever been!</p>
+            <footer>Some guy whose hair is on <span class="text-danger">fire</span></footer>
+          </blockquote>
+          <blockquote class="bg-warning">
+            <p>I spent an hour basking in the hydrothermal vents and my skin has never looked better!</p>
+            <footer>Some lady whose entire body has <span class="text-warning">melted</span></footer>
+          </blockquote>
+          <blockquote class="bg-info blockquote-reverse">
+            <p>I saw an anglerfish and it made my life complete.</p>
+            <footer><span class="text-info">Me</span>, probably</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

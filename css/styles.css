@@ -1,5 +1,8 @@
 body {
-  background-color: rgb(4, 70, 87)
+  /* color: rgb(173, 226, 224); */
+  background-color: rgb(0,0,0);
+  background-image: linear-gradient(rgb(4, 70, 87), rgb(0,0,0));
+  background-repeat: no-repeat;
 }
 
 .vent {
@@ -7,4 +10,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.packages {
+  color: rgb(173, 226, 224);
 }
