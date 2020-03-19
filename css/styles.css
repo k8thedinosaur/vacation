@@ -1,4 +1,10 @@
 body {
-  background-image: url("img/vent.jpg");
-  background-color: rgb(6, 14, 87)
+  background-color: rgb(4, 70, 87)
+}
+
+.vent {
+  background-image: url("../img/vent.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
